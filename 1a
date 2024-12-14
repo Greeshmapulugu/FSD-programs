@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <body>
+    <title>HTML LISTS</title>
+    <h2>unordered list</h2>
+    <ul>
+        <li>ADSAA</li>
+        <li>FDS</li>
+        <li>P&S</li>
+    </ul>
+    <h2>ordered list</h2>
+    <ol>
+        <li>CRT</li>
+        <li>DTI</li>
+        <li>SE</li>
+    </ol>
+    <h2>Nested list</h2>
+    <ul>
+        <li>colors</li>
+        <ul>
+            <li>white</li>
+            <li>Black</li>
+            <li>pink</li>
+        </ul>
+    </ul>
+    <h2>unordered list in ordered list</h2>
+    <ul>
+        <li>Names</li>
+    </ul>
+    <ol>
+        <li>Greeshma</li>
+        <li>Reeshma</li>
+        <li>Suji</li>
+    </ol>
+    <h2>Definition list</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Hyper text markup language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style sheets</dd>
+        <dt>FSD</dt>
+        <dd>full stack development</dd>
+    </dl>
+    
+    </body>
+</html>
+
+
