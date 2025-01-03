@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thumbnail Image Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            margin-top: 20px;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .gallery a {
+            display: inline-block;
+            text-decoration: none;
+            color: #333;
+            border: 1px solid #ddd;
+            padding: 5px;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+        .gallery img {
+            width: 100px;
+            height: 100px;
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Thumbnail Image Gallery</h1>
+    <div class="gallery">
+        <a href="images/fullsize1.jpg" title="Image 1 Thumbnail">
+            <img src="images/thumbnail1.jpg" alt="Image 1">
+        </a>
+        <a href="images/fullsize2.jpg" title="Image 2 Thumbnail">
+            <img src="images/thumbnail2.jpg" alt="Image 2">
+        </a>
+        <a href="images/fullsize3.jpg" title="Image 3 Thumbnail">
+            <img src="images/thumbnail3.jpg" alt="Image 3">
+        </a>
+        <a href="images/fullsize4.jpg" title="Image 4 Thumbnail">
+            <img src="images/thumbnail4.jpg" alt="Image 4">
+        </a>
+        <a href="images/fullsize5.jpg" title="Image 5 Thumbnail">
+            <img src="images/thumbnail5.jpg" alt="Image 5">
+        </a>
+    </div>
+</body>
+</html>
